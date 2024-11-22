@@ -15,6 +15,15 @@ The hardware used by this project is T-Display-S3. It's an esp32s3 development b
 7. Connect the board to the computer USB
 8. Click (→) to upload firmware
 
+## Basic Usage
+
+1. Install [nRF Connect](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&pli=1) on mobile.
+2. Plug in the board to a target computer. On its screen it should show a device name and a PIN.
+3. Open the installed nRF Connect for Mobile application on the phone.
+4. Scan and find the board and connect. It should prompt for a PIN for pairing.
+5. After pairing, in the clinet tab, click on the write/upload icon and send the passwords as text.
+6. Tap send, and the device should type these characters into the connected computer.
+
 ## FAQ
 
 - PlatformIO no longer finds my development board after I run the project.
